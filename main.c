@@ -25,7 +25,7 @@ int main () {
      }
 /* Struttura alternativa:
 
-   if ( a+b < c \\ a+c < b \\ b+c < a) {
+   if ( a+b < c || a+c < b || b+c < a) {
       printf("I lati forniti non sono parte di un triangolo.\n");
       return 2; // in questo caso, il codice di errore è 2 ed indica la presenza di lati che non sono parte di un triangolo
    } 
